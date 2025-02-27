@@ -54,13 +54,6 @@ When you first open MSWLogo, you'll be greeted with a command prompt where you c
 2. **Drawing Shapes:**
    Now that you know how to control the turtle, let's try drawing a square. To do this, we will use a combination of `FORWARD` and `RIGHT` commands.
 
-   ```logo
-   REPEAT 4 [
-     FORWARD 100
-     RIGHT 90
-   ]
-   ```
-
    The `REPEAT` command repeats the sequence inside the square brackets four times, drawing a square with 100 units per side.
 
 ### Creating Procedures
@@ -69,14 +62,6 @@ One of the most powerful features of MSWLogo is the ability to create your own p
 
 Here’s an example of creating a procedure to draw a triangle:
 
-```logo
-TO TRIANGLE
-  REPEAT 3 [
-    FORWARD 100
-    RIGHT 120
-  ]
-END
-```
 
 Once this procedure is defined, you can call it by typing `TRIANGLE`, and the turtle will draw a triangle.
 
